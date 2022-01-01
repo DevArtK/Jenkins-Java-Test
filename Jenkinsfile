@@ -5,19 +5,19 @@ pipeline {
 
         stage('Setup') {
             steps {
-                echo '----- Cloning from VCS -----'
+                echo "----- Cloning from VCS -----"
             }
         }
 
         stage('Build') {
             steps {
-                echo '----- Building Project -----'
+                echo "----- Building Project -----"
             }
         }
 
         stage('Test') {
             steps {
-                echo '----- Running Tests -----'
+                echo "----- Running Tests -----"
             }
         }
 
